@@ -1,83 +1,108 @@
-🎙️ Text-to-Speech & Speech-to-Text System
+# 🎙️ Text-to-Speech & Speech-to-Text System
 
-A Python-based project that converts text into speech and speech into text using speech processing libraries. This project demonstrates the practical implementation of Speech Recognition and Speech Synthesis concepts in Python.
+A Python-based project that converts text into speech and speech into text using speech processing libraries. This project demonstrates the practical implementation of Speech Recognition and Speech Synthesis concepts.
 
-📌 Overview
+---
+
+## 📌 Overview
 
 This project allows users to:
 
-Convert text input into spoken audio (Text-to-Speech)
+- Convert text input into spoken audio (Text-to-Speech)
+- Convert spoken audio from a microphone into text (Speech-to-Text)
+- Understand real-time speech processing concepts
 
-Convert spoken audio from a microphone into text (Speech-to-Text)
+Implemented using Python in a Jupyter Notebook environment.
 
-It is implemented using Python in a Jupyter Notebook environment and showcases real-time speech processing techniques.
+---
 
-🚀 Features
+## 🚀 Features
 
-Text to natural speech conversion
+- 🔊 Text to natural speech conversion  
+- 🎤 Speech recognition using microphone input  
+- Beginner-friendly implementation  
+- Clean and simple project structure  
+- Demonstrates AI and NLP fundamentals  
 
-Speech recognition using microphone input
+---
 
-Simple and easy-to-understand implementation
+## 🛠️ Technologies Used
 
-Beginner-friendly structure
+- Python  
+- Jupyter Notebook  
+- SpeechRecognition  
+- pyttsx3  
+- gTTS  
+- PyAudio  
 
-Demonstrates AI and NLP fundamentals
+---
 
-🛠️ Technologies Used
+## 📂 Project Structure
 
-Python
-
-Jupyter Notebook
-
-SpeechRecognition
-
-pyttsx3
-
-gTTS
-
-PyAudio
-
-📂 Project Structure
+```
 Text-to-Speech-Speech-to-Text/
 │
 ├── Text-Speech.ipynb
 ├── README.md
-⚙️ Installation & Setup
+```
 
-Clone the repository:
+---
 
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```
 git clone https://github.com/hasinib729/Text-to-Speech-Speech-to-Text.git
+```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
+```
 cd Text-to-Speech-Speech-to-Text
+```
 
-Install required libraries:
+3. Install required libraries:
 
+```
 pip install speechrecognition pyttsx3 pyaudio gtts
+```
 
-Launch Jupyter Notebook:
+4. Launch Jupyter Notebook:
 
+```
 jupyter notebook
+```
 
-Open Text-Speech.ipynb and run all cells.
+5. Open `Text-Speech.ipynb` and run all cells.
 
-▶️ How It Works
-🔊 Text-to-Speech
+---
 
-The system uses speech synthesis libraries to convert user-provided text into audio output.
+## ▶️ How It Works
 
-🎤 Speech-to-Text
+### 🔊 Text-to-Speech
+Uses speech synthesis libraries to convert text into audio output.
 
-The system captures microphone input and processes it using speech recognition APIs to convert spoken words into text.
+### 🎤 Speech-to-Text
+Captures microphone input and processes it using speech recognition APIs to convert spoken words into text.
 
-📈 Future Enhancements
+---
 
-Add Graphical User Interface (GUI)
+## 📈 Future Enhancements
 
-Add multilingual support
+- Add GUI interface  
+- Add multilingual support  
+- Improve speech accuracy  
+- Deploy as a web application  
 
-Improve accuracy using advanced AI models
+---
 
-Deploy as a web application
+## 👩‍💻 Author
+
+**Battini Hasini**  
+B.Tech CSE (AI/ML)  
+Hyderabad, India  
+
+---
+
+⭐ If you like this project, feel free to give it a star!
